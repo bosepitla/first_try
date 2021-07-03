@@ -32,6 +32,7 @@ driver.find_element_by_link_text("Google").click()
 print("cliked google login")
 time.sleep(10)
 # =============================================================================
+# not using most of the below code at the this time as the geckodriver is working
 # driver.implicitly_wait(15)
 # time.sleep(10)
 # loginBox = driver.find_element_by_xpath('//*[@id ="identifierId"]')
@@ -46,6 +47,7 @@ time.sleep(10)
 #   
 # nextButton = driver.find_elements_by_xpath('//*[@id ="passwordNext"]')
 # nextButton[0].click()
+#
 # =============================================================================
   
 print('Login Successful...!!')
